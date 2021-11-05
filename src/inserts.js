@@ -4,8 +4,10 @@ db.libros.insertMany(
         tituloLibro: "El Padrino", 
         tituloPelicula: "El Padrino", 
         genero: ["Mafia","Drama"],
-        fechaPublicacionLibro: new Date("1969-03-10"), 
-        fechaPublicacionPelicula: new Date("1972-03-14"),
+        Fechas:{
+          fechaPublicacionLibro: new Date("1969-03-10"), 
+          fechaPublicacionPelicula: new Date("1972-03-14"),
+        },
         EscritorLibro: "Mario Puzo",
         DirectorPelicula: "Francis Ford Coppola",
         PremiosPelicula: {
@@ -20,8 +22,10 @@ db.libros.insertMany(
         tituloLibro: "El Silencio De Los Corderos", 
         tituloPelicula: "El Silencio De Los Corderos", 
         genero: ["Terror","Thriller","Policíaco"],
-        fechaPublicacionLibro: new Date("1988-05-19"), 
-        fechaPublicacionPelicula: new Date("1991-02-14"),
+        Fechas:{
+          fechaPublicacionLibro: new Date("1988-05-19"), 
+          fechaPublicacionPelicula: new Date("1991-02-14"),
+        },
         EscritorLibro: "Thomas Harris",
         DirectorPelicula: "Jonathan Demme",
         PremiosPelicula: {
@@ -36,8 +40,10 @@ db.libros.insertMany(
         tituloLibro: "Matar a un Ruiseñor", 
         tituloPelicula: "Matar a un Ruiseñor", 
         genero: ["Drama"],
-        fechaPublicacionLibro: new Date("1960-07-11"), 
-        fechaPublicacionPelicula: new Date("1962-12-25"),
+        Fechas:{  
+          fechaPublicacionLibro: new Date("1960-07-11"), 
+          fechaPublicacionPelicula: new Date("1962-12-25"),
+        },
         EscritorLibro: "Harper Lee",
         DirectorPelicula: "Robert Mulligan",
         PremiosPelicula: {
@@ -52,13 +58,16 @@ db.libros.insertMany(
         tituloLibro: "El Cuerpo", 
         tituloPelicula: "Cuenta Conmigo", 
         genero: ["Drama","Aventura"],
-        fechaPublicacionLibro: new Date("1982-08-27"), 
-        fechaPublicacionPelicula: new Date("1986-08-08"),
+        Fechas:{
+          fechaPublicacionLibro: new Date("1982-08-27"), 
+          fechaPublicacionPelicula: new Date("1986-08-08"),
+        },
         EscritorLibro: "Stephen King",
         DirectorPelicula: "Rob Reiner",
         PremiosPelicula: {
               Oscars: 0,
               GlobosDeOro: 2,
+              Otros: ["DGA","WGA"]
         },
         PrecioLibro: 5.97,
         PlataformaStreamingPelicula: ["Amazon Prime Video","Filmin"],
